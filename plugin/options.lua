@@ -2,7 +2,7 @@ local opt = vim.opt
 -- general
 opt.belloff = "all"
 opt.scrolloff = 10
---opt.clipboard = "unnamedplus"
+opt.clipboard:append "unnamedplus"
 opt.mouse = "a"
 opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
 opt.signcolumn = "yes"

@@ -30,10 +30,10 @@ nmap { "<C-d>", "<C-d>zz", { desc = "half page down + center screen" } }
 nmap { "n", "nzzzv", { desc = "search next + center screen" } }
 nmap { "N", "Nzzzv", { desc = "search prev + center screen" } }
 
--- Netrw (:Explore)
-nmap { "<leader>ef", "<cmd>Explore<CR>", { desc = "Open Netrw in full size" } }
-nmap { "<leader>ee", "<cmd>Lexplore<CR>", { desc = "Open Netrw in the working dir" } }
-nmap { "<leader>ec", "<cmd>Lexplore %:p:h<CR>", { desc = "Open Netrw in the dir of the current file" } }
+-- Netrw (:Explore) -> Using Oil + Neotree
+--nmap { "<leader>ef", "<cmd>Explore<CR>", { desc = "Open Netrw in full size" } }
+--nmap { "<leader>ee", "<cmd>Lexplore<CR>", { desc = "Open Netrw in the working dir" } }
+--nmap { "<leader>ec", "<cmd>Lexplore %:p:h<CR>", { desc = "Open Netrw in the dir of the current file" } }
 
 -- Window Split
 nmap { "<leader>W", "<cmd>vsplit<CR>", { desc = "split vertical" } }
