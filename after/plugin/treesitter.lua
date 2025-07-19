@@ -26,6 +26,7 @@ require("nvim-treesitter.configs").setup {
         "cpp",
         "go",
         "html",
+        "java",
         "javascript",
         "json",
         "markdown",

@@ -8,6 +8,7 @@ return {
                 vim.keymap.set("n", "}", "<cmd>AerialNext<CR>", { buffer = bufnr })
             end,
         },
+        lazy = true,
         keys = {
             { "<leader>lf", "<cmd>AerialToggle!<CR>" }
         },
