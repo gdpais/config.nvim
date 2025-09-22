@@ -40,6 +40,7 @@ require("nvim-treesitter.configs").setup {
         "typescript",
         "vim",
         "vimdoc", --after help
+        "zig",
     },
 
     sync_install = false,

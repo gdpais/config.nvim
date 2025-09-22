@@ -61,7 +61,7 @@ return {
                 capabilities = require("cmp_nvim_lsp").default_capabilities()
             end
 
-            local lspconfig = require "lspconfig"
+            --local lspconfig = vim.lsp.config
 
             local servers = {
                 bashls = true,
@@ -182,7 +182,8 @@ return {
                     capabilities = capabilities,
                 }, config)
 
-                lspconfig[name].setup(config)
+                vim.lsp.config(name, config)
+                --lspconfig[name].setup(config)
             end
 
             local disable_semantic_tokens = {
